@@ -1,0 +1,165 @@
+body{
+    margin: 0%;
+   
+    height: 100%;
+}
+.container{
+   width: 1500px;
+    height: 250vh;
+    background-color: rgba(15, 15, 13, 0.984);
+}
+.sidenav{
+    width: 250px;
+    height: 130vh;
+    background-color: rgb(1, 8, 8);
+}
+.sidenav img{
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sidenav span{
+    font-size: 40px;
+     font-weight: 900;
+     position: relative;
+     bottom: 20px;
+     margin-left: 10px;
+     color: rgb(242, 245, 247);
+}
+.sidenav i{
+    color: rgb(240, 243, 247);
+    margin-top: 20px;
+    line-height: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sidenav div{
+    color: aliceblue;
+}
+h1{
+    font-size: 14px;
+    color: aliceblue;
+    margin-left: 30px;
+}
+.eng{
+    margin-left: 25px;
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+.main-nav{
+    background-color: rgb(6, 4, 4);
+    width: 1250px;
+    height: 60px;
+    position: relative;
+    bottom: 970px;
+    left: 250px;
+}
+.main-nav button{
+position: relative;
+left: 1050px;
+margin-top: 10px;
+}
+.login{
+    border-radius: 20px;
+    font-weight: 700;
+   width: 90px;
+   height: 40px;
+
+}
+.signup {
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    border-top: black;
+    border-left: black;
+}
+.sub-nav{
+    position: relative;
+    left: 260px;
+    bottom: 950px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: aliceblue;
+    letter-spacing: 2px;
+
+}
+.endspan{
+    margin-left: 1000px;
+    font-size: 20px;
+}
+.card{
+    margin-left: 40px;
+    display: flex;
+    width: 150px;
+    height: auto;
+}
+.card-body{
+    position: relative;
+    left: 260px;
+    bottom: 930px;
+    border-radius: 20px;
+    color: rgb(226, 229, 231);
+    background-color: rgba(19, 19, 18, 0.932);
+    border: 2px solid rgb(12, 9, 9);
+}
+.card-body img{
+    width: 250px;
+    height: 250px;
+}
+.card-body span{
+    font-size: 22px;
+    font-weight: 800;
+    margin-left: 50px;
+}
+.card-body p{
+    font-size: 20px;
+    margin-left: 20px;
+    color: rgb(169, 168, 167);
+}
+button{
+    cursor: pointer;
+}
+.card2{
+    position: relative;
+    bottom: 500px;
+    right: 515px;
+   
+}
+.card2 img{
+    margin-left: 1px;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.card2 span{
+    font-size: 22px;
+    font-weight: 800;
+    margin-left: 50px;  
+}
+.card2-body{
+    margin-left: 34px;
+    border-radius: 20px;
+    color: rgb(226, 229, 231);
+    background-color: rgba(19, 19, 18, 0.932);
+    border: 2px solid rgb(12, 9, 9);  
+    border-radius: 20px;
+}
+.card2 p{
+    font-size: 20px;
+    margin-left: 30px;
+    color: rgb(169, 168, 167);   
+}
+ .card-body img:hover{
+    transform: scale(1.1);
+ }
+ .card2-body img:hover{
+    transform: scale(1.1);
+ }
+ i:hover{
+    transform: scale(1.4);
+ }
